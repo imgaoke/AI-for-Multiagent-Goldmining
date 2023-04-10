@@ -1,0 +1,28 @@
+[MiningEnvironment] Cycle 1 finished in 1013 ms, mean is 1013.
+[big3_leader] Defining quadrants for simulation 11 : 51x51
+[big3_miner1] Gold perceived: gold(7,19)
+[big3_miner2] I've got my quadrant, changing search gold strategy.
+[big3_miner3] I've got my quadrant, changing search gold strategy.
+[big3_leader] Miner big3_miner4 is in the depot quadrant.
+[big3_miner3] All golds=[], evaluation=[]
+[big3_miner2] All golds=[], evaluation=[]
+[big3_miner3] New goal is find gold: quadrant
+[big3_miner2] New goal is find gold: quadrant
+[big3_miner1] All golds=[gold(7,19)], evaluation=[d(2,gold(7,19),not_committed)]
+[big3_miner1] Gold options are [d(2,gold(7,19),not_committed)]. Next gold is gold(7,19)
+[big3_miner1] Gold perceived: gold(5,17)
+[big3_miner1] All golds=[gold(5,17),gold(7,19)], evaluation=[d(2,gold(5,17),not_committed),d(2,gold(7,19),not_committed)]
+[big3_miner1] Gold options are [d(2,gold(5,17),not_committed),d(2,gold(7,19),not_committed)]. Next gold is gold(5,17)
+[big3_miner1] Gold perceived: gold(6,19)
+[big3_miner1] All golds=[gold(6,19),gold(5,17),gold(7,19)], evaluation=[d(1,gold(6,19),not_committed),d(2,gold(5,17),not_committed),d(2,gold(7,19),not_committed)]
+[big3_miner1] Gold options are [d(1,gold(6,19),not_committed),d(2,gold(5,17),not_committed),d(2,gold(7,19),not_committed)]. Next gold is gold(6,19)
+[big3_miner1] I've got my quadrant, changing search gold strategy.
+[big3_miner1] Handling gold(6,19) now.
+[big3_miner1] All golds=[gold(6,19),gold(5,17),gold(7,19)], evaluation=[d(1,gold(6,19),not_committed),d(2,gold(5,17),not_committed),d(2,gold(7,19),not_committed)]
+[big3_miner1] Gold options are [d(1,gold(6,19),not_committed),d(2,gold(5,17),not_committed),d(2,gold(7,19),not_committed)]. Next gold is gold(6,19)
+[MiningEnvironment] Cycle 2 finished in 1000 ms, mean is 1006.
+[MiningEnvironment] Cycle 3 finished in 1001 ms, mean is 1004.
+[big3_miner1] Picked gold(6,19), I have 1 pieces of gold
+[big3_miner1] All golds=[gold(5,17),gold(7,19)], evaluation=[d(3,gold(5,17),not_committed),d(1,gold(7,19),not_committed)]
+[big3_miner1] Gold options are [d(3,gold(5,17),not_committed),d(1,gold(7,19),not_committed)]. Next gold is gold(7,19)
+[big3_miner1] Handling gold(7,19) now.

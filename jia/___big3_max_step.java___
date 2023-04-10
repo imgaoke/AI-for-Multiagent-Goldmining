@@ -1,0 +1,29 @@
+package jia;
+
+import java.util.logging.Level;
+
+import env.*;
+import arch.Big3MinerArch;
+import jason.asSemantics.*;
+import jason.asSyntax.*;
+import jason.environment.grid.Location;
+
+/** gets the location of some agent (this info is in the world model) */
+public class big3_max_step extends DefaultInternalAction {
+
+    @Override
+    public Object execute(TransitionSystem ts, Unifier un, Term[] terms) throws Exception {
+        try {
+            WorldModel model = ((Big3MinerArch)ts.getUserAgArch()).getModel();
+
+            int l = model.getMaxSteps();
+            //System.out.print("here0");
+            //System.out.print(Integer.toString(l));
+            return un.unifies(terms[0], new NumberTermImpl(l));
+        } catch (Throwable e) {
+            ts.getLogger().log(Level.SEVERE, "add_fatigue error: "+e, e);
+        }
+        return false;
+    }
+}
+
